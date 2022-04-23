@@ -268,9 +268,10 @@ class Messenger extends Component<MessengerProps, MessengerState> {
           this.requestTrigger(data);
           break;
         case 'unload':
-          // this.unload()
+          this.wakeup();
           break;
         default:
+          this.wakeup();
           break;
       }
     });
