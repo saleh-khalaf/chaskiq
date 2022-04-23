@@ -176,7 +176,7 @@ class Messenger extends Component<MessengerProps, MessengerState> {
         JSON.parse(localStorage.getItem('chaskiq-banner')),
       display_mode: 'home', // "conversation", "conversations",
       tours: [],
-      open: false,
+      open: true,
       appData: {},
       agents: [],
       isMinimized: false,
